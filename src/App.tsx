@@ -1,9 +1,10 @@
 import Button from "./components/buttons";
+import ClipboardComponent from "./components/sectionClipboard";
 import SnippetsComponent from "./components/sectionSnippets";
 import { HeadeStyle } from "./styles/heade";
 
 function App() {
-  const ImageLogo = "/public/images/logo.svg";
+  const ImageLogo = "/images/logo.svg";
 
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
         </div>
       </HeadeStyle>
       <SnippetsComponent/>
+      <ClipboardComponent/>
     </>
   );
 }

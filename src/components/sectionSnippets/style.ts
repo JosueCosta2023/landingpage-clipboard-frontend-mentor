@@ -34,7 +34,6 @@ const StyledTitleSnippets = styled.div`
 
 const StyledDetailSnippets = styled.div`
     width: 100%;
-    height: 572px;
     display: flex;
     flex-wrap: wrap;
     gap: 110px;
@@ -73,6 +72,7 @@ const StyledDetailSnippets = styled.div`
     @media(max-width:1280px){
         justify-content: center;
         align-items: center;
+        gap: 50px;
 
         & > div{
             width: 100%;
