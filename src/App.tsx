@@ -1,6 +1,8 @@
 import Button from "./components/buttons";
 import ClipboardComponent from "./components/sectionClipboard";
+import CTAComponents from "./components/sectionCTA";
 import SnippetsComponent from "./components/sectionSnippets";
+import WorkflowComponent from "./components/sectionWorkflow";
 import { HeadeStyle } from "./styles/heade";
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
       </HeadeStyle>
       <SnippetsComponent/>
       <ClipboardComponent/>
+      <WorkflowComponent/>
+      <CTAComponents/>
     </>
   );
 }
