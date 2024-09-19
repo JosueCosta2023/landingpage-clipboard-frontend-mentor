@@ -9,13 +9,13 @@ const WorkflowComponent = () => {
         "Ensure sensitive information never makes its way to your clipboard by excluding certain sources.",
     },
     {
-      image: "/public/images/icon-text.svg",
+      image: "/images/icon-text.svg",
       title: "Plain text snippets",
       description:
         "Remove unwanted formatting from copied text for a consistent look.",
     },
     {
-      image: "/public/images/icon-preview.svg",
+      image: "/images/icon-preview.svg",
       title: "Sneak preview",
       description:
         "Quick preview of all snippets on your Clipboard for easy access.",
@@ -28,19 +28,19 @@ const WorkflowComponent = () => {
       name: "Logo do Google",
     },
     {
-      image: "/public/images/logo-ibm.png",
+      image: "/images/logo-ibm.png",
       name: "Logo da IBM",
     },
     {
-      image: "/public/images/logo-microsoft.png",
+      image: "/images/logo-microsoft.png",
       name: "Logo a Microsoft",
     },
     {
-      image: "/public/images/logo-hp.png",
+      image: "/images/logo-hp.png",
       name: "Logo da HP",
     },
     {
-      image: "/public/images/logo-vector-graphics.png",
+      image: "/images/logo-vector-graphics.png",
       name: "Logo da Graphics Vetor",
     },
   ];

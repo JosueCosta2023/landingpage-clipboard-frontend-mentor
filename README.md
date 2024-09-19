@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Clipboard Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Desafio frontend mentor realizado para fins de estudos e aperfeiçoamento de responsividade.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Objetos
+- Pagina responsiva
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Tecnologias Utiizadas.
+ * TypesScript
+ * React
+ * Eslint
+ * Styled-Components
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Author
+### Josué Ocanha Costa
+#### FullStack Developer
+#### Redes Sociais
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Linkedin - [JosueOcanhaCosta](https://www.linkedin.com/in/josue-ocanha-costa/)
+- Github - [JosueCosta2023](https://github.com/JosueCosta2023)
+- Twitter - [@JosueOcanhaCosta](https://twitter.com/josue_ocanha)
+- Facebook - [JosueCosta](https://www.facebook.com/JosueOcanhaCosta2023)
+- Whatsapp - [Josue2023](https://wa.me/5565996408371?text=Ol%C3%A1%2C+encontrei+seu+whatsapp+no+Github.+Gostaria+de+falar+sobre+seus+projetos.)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Deploy do sistema - [Software Engine Portfolio](https://test-hypesoft-josue-august-2024.vercel.app/)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+# "Vida longa e próspera. 🖖🖖🖖"
+
+Feito com o ❤️ por Josué Ocanha Costa
