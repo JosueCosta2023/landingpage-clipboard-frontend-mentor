@@ -12,6 +12,7 @@ const StyleCtaSection = styled.section`
         font-size: 36px;
         color: #4C545C;
         line-height: 45px;
+        text-align: center;
     }
 
     & > p {
@@ -27,6 +28,8 @@ const StyleCtaSection = styled.section`
     & > div {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 16px;
         letter-spacing: 0.5;
         & > button:first-child{
@@ -36,6 +39,7 @@ const StyleCtaSection = styled.section`
             background-color: #6174FF;
         }
     }
+
 `
 
 export {StyleCtaSection}

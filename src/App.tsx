@@ -3,10 +3,13 @@ import ClipboardComponent from "./components/sectionClipboard";
 import CTAComponents from "./components/sectionCTA";
 import SnippetsComponent from "./components/sectionSnippets";
 import WorkflowComponent from "./components/sectionWorkflow";
+import { StyleFooter } from "./styles/footer";
 import { HeadeStyle } from "./styles/heade";
 
 function App() {
   const ImageLogo = "/images/logo.svg";
+
+
 
   return (
     <>
@@ -28,6 +31,28 @@ function App() {
       <ClipboardComponent/>
       <WorkflowComponent/>
       <CTAComponents/>
+      <StyleFooter>
+          <div>
+            <img src={ImageLogo} alt="Imagem do logo" />
+
+            <nav>
+              <ul>
+                <li>FAQ's</li>
+                <li>Contact Us</li>
+                <li>Privacy Policy</li>
+                <li>Press Kit</li>
+                <li>Install Guide</li>
+              </ul>
+            </nav>
+
+            <ul>
+              <li><img src="/images/icon-facebook.svg" alt="Facebook" /></li>
+              <li><img src="/images/icon-twitter.svg" alt="Twitter" /></li>
+              <li><img src="/images/icon-instagram.svg" alt="Instagram" /></li>
+            </ul>
+          </div>
+      </StyleFooter>
+
     </>
   );
 }
