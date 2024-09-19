@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const HeadeStyle = styled.section`
   width: 100%;
-  background-image: url("/public/images/bg-header-desktop.png");
+  background-image: url("/images/bg-header-desktop.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
