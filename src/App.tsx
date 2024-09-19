@@ -1,26 +1,32 @@
-
 import Button from "./components/buttons";
-import { HeaderStyle } from "./components/styles/header";
+import SnippetsComponent from "./components/sectionSnippets";
+import { HeadeStyle } from "./styles/heade";
 
 function App() {
-  
-  const ImageLogo = "/public/images/logo.svg"
+  const ImageLogo = "/public/images/logo.svg";
 
   return (
     <>
-      <HeaderStyle>
-          <img src={ImageLogo} alt="Imagem logo"/>
+      <HeadeStyle>
+        <img src={ImageLogo} alt="Imagem logo" />
 
-          <h3>A history of everything you copy</h3>
+        <h3>A history of everything you copy</h3>
 
-          <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
-      </HeaderStyle>
-      <div>
-        <Button children="donwload for ios" color={"lightBlue"} />
-        <Button children="donwload for mac" color={"strongCyan"} />
-      </div>
+        <p>
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <div>
+          <Button children="donwload for ios"/>
+          <Button children="donwload for mac"/>
+        </div>
+      </HeadeStyle>
+      <SnippetsComponent/>
     </>
   );
 }
+
+
+
 
 export default App;
