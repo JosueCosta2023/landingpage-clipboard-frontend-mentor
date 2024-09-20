@@ -29,6 +29,8 @@ const ButtonsStyle = styled.button<ButtonProps>`
   border-radius: 26px;
   border: none;
   text-transform: capitalize;
+  box-shadow: 5px 7px 20px rgba(0,0,0,0.5);
+  border-bottom: 3px solid rgba(0,0,0,0.2);
 `;
 
 export default Button;
